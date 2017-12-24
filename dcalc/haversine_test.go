@@ -20,7 +20,7 @@ func TestDistance(t *testing.T) {
 
 	if (distance.Km >= min) && (distance.Km <= max) {
 		message := fmt.Sprintf("testDistanceKm OK: Distance from Dublin to London is in acceptable range: %.2fkm", distance.Km)
-		t.Error(message)
+		t.Log(message)
 	} else {
 		t.Error("testDistanceKm FAILED")
 	}

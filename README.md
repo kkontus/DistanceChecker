@@ -9,3 +9,10 @@ run:
 $ go build
 $ ./DistanceChecker
 ```
+
+```bash
+Tests
+run:
+$ go test util/util_test.go
+$ go test dcalc/haversine_test.go 
+```
